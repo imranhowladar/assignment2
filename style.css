@@ -1,0 +1,345 @@
+/* text font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Work Sans';
+    margin: 0 0;
+}
+/* -------------------------------
+navigation bar start
+---------------------------------- */
+.top-container{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1050px;
+}
+.nav-grandpapa{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-papa{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.left-nav{
+    width: 302px;
+    height: 53px;
+    
+}
+.left-nav-name{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0 0;
+    color: #131313;
+}
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 477px;
+    height: 26px;
+    
+}
+.right{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 40px;
+}
+
+/* -------------------------------
+navigation bar end 
+----------------------------------*/
+.title{
+    
+    width: 862px;
+    height: 225px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.title-name h1{
+    font-weight: 700;
+    font-size: 55px;
+    
+    text-align: center;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.title-description p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    padding-bottom: 10px;
+}
+
+.button-explore button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    
+}
+/* -----------------------------
+banner image  
+-------------------------------*/
+.banner{
+    width: 1300px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    
+
+    
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/*----------------------------
+ features section
+ ----------------------------- */
+ .feature-container{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    gap: 70px;
+    
+ }
+ .feature-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+ }
+ 
+ .span1{
+    color: #727272;
+    font-weight: 600;
+    font-size: 45px;
+ }
+ .span2{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+ }
+ .span3{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+ }
+ .f-description{
+    color: #727272;
+ }
+ .f-button button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+ }
+/* --------------------------------
+love and enjoy section
+----------------------------------- */
+.enjoy-container{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    gap: 100px;
+    width: 1300px;
+    position: relative;
+    
+}
+.enjoy{
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    
+}
+.enjoy-des{
+    color: #727272;
+}
+.enjoy h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.enjoy p{
+    color: #727272;
+}
+.enjoy-heading h2{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+
+}
+
+.enjoy-text{
+    position: relative;
+    
+}
+.enjoy-img{
+    position: relative;
+      
+}
+.enjoy-img img{
+    width: 100%;
+    height: 100%;
+}
+.enjoy-container button{
+    position: absolute;
+    
+    width: 350px;
+    height: 170px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    top: 45%;
+    left: 40%;
+}
+.experience-button-span{
+    font-weight: 500;
+    font-size: 35px;
+}
+/* ----------------------
+some facts section 
+----------------------------*/
+.fact-container{
+    
+    width: 1300px;
+    margin: auto;
+}
+.fact-title h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272; 
+    margin-bottom: 100px;
+}
+.fact-data-container{
+    display: flex;
+    justify-content: space-around;
+}
+.fact1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+/* transform  */
+.fact1:hover{
+    background-color: #22dd98;
+    border: 1px solid #22dd98;
+    transform: rotate(360deg) scale(1.2);
+    
+    
+}
+.fact12 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 5px;
+}
+.fact13 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 5px;
+}
+/* ------------------------
+sponsor section
+---------------------------*/
+.sponsor-container{
+    width: 1300px;
+    margin: auto;
+    
+}
+.sponsor-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.sponsor-des{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+.sponsor-logo-container{
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor-logo-container img{
+    filter: grayscale(1);
+}
+/*-----------------------------
+ extra section 
+ ----------------------------- */
+.extra-container{
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(89, 176, 247);
+}
+
+/* ------------------------------
+footer section
+----------------------------  */
+.foot{
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4E7;
+    margin: 50px auto;
+
+}
+.foot p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    
+}
